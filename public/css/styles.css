@@ -4,9 +4,9 @@
 }
 
 body {
-    background-image:url(../img/fond-site.jpg);
+    background-image: url(../img/fond-site.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     font-family: Verdana, sans-serif;
 }
 
@@ -34,8 +34,9 @@ input[type=text], input[type=number] {
     margin: 0;
     padding: 1em;
     background-color: #DF0101;
-    color:white;
-    font-variant:small-caps;
+    color: white;
+    font-variant: small-caps;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
 }
 
 #content{
