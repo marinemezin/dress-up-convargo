@@ -1,0 +1,41 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image:url(../img/fond-site.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: Verdana, sans-serif;
+}
+
+h1{
+    text-align:center;
+}
+h2{
+
+}
+
+.little-text {
+    font-size: 70%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#header {
+    width: 100%;
+    margin: 0;
+    padding: 1em;
+    background-color: #DF0101;
+    color:white;
+    font-variant:small-caps;
+}
+
+#content{
+    margin:1em;
+}
+
+#compute{
+
+}
