@@ -14,7 +14,7 @@ h1{
     text-align:center;
 }
 h2{
-
+    margin-bottom:1em;
 }
 
 .little-text {
@@ -36,6 +36,16 @@ h2{
     margin:1em;
 }
 
-#compute{
-
+#compute {
+    border-radius: 8px;
+    padding: 0.7em 0.7em;
+    font-size: 0.8em;
+    background-color: #DF0101;
+    color: white;
+    font-variant: small-caps;
+}
+#compute:hover {
+    background-color: white;
+    border-color: #DF0101;
+    color: #DF0101;
 }
