@@ -14,7 +14,7 @@ h1, h2{
     text-align:center;
 }
 h2{
-    margin-bottom:1em;
+    margin:1em;
 }
 
 input[type=text], input[type=number] {
@@ -29,6 +29,17 @@ input[type=text], input[type=number] {
     margin-bottom: 1em;
 }
 
+#actors {
+    margin-top: 2em;
+}
+
+#shipper, #trucker {
+    border: 0.15em solid #73AD21;
+    padding-left:0.2em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
 #header {
     width: 100%;
     margin: 0;
@@ -39,14 +50,17 @@ input[type=text], input[type=number] {
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
 }
 
-#content{
-    margin:1em;
+#content {
+    margin: 1em;
 }
 
 #compute {
-    margin-top:1em;
+    margin-top: 1em;
     border-radius: 8px;
-    padding: 1em 1em;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:2em;
+    padding-right:2em;
     font-size: 1em;
     background-color: #DF0101;
     color: white;
@@ -56,8 +70,4 @@ input[type=text], input[type=number] {
     background-color: white;
     border-color: #DF0101;
     color: #DF0101;
-}
-
-#actors{
-    margin-top:2em;
 }
